@@ -1,7 +1,7 @@
 ﻿// Написать программу, которая из имеющегося массива строк формирует массив из строк
 // длина которых меньше либо равна 3 символа.
 
-string [] array = {"корова", "24", "пирог", "на", "ПП", "трава"};
+string [] array = {"корова", "24", "пирог", "на", "ППП", "трава"};
 
 void OutputNewArray3letters (string [] array)
 {
@@ -30,4 +30,5 @@ void OutputNewArray3letters (string [] array)
     }
     Console.Write($"{newArray[newArray.Length - 1]}]");
 }
--
+
+OutputNewArray3letters(array);
